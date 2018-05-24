@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27703.2018
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UsageDataProcessor", "UsageDataProcessor\UsageDataProcessor.csproj", "{78E52612-34A4-4E9B-B196-CC5DCF649813}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{78E52612-34A4-4E9B-B196-CC5DCF649813}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{78E52612-34A4-4E9B-B196-CC5DCF649813}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{78E52612-34A4-4E9B-B196-CC5DCF649813}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{78E52612-34A4-4E9B-B196-CC5DCF649813}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {2507399C-8534-47A9-A873-B433ACE968DB}
+	EndGlobalSection
+EndGlobal
