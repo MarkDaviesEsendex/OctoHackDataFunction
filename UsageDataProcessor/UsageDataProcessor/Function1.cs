@@ -6,6 +6,8 @@ using Microsoft.Azure.WebJobs.Extensions.Http;
 using Microsoft.AspNetCore.Http;
 using Microsoft.Azure.WebJobs.Host;
 using Newtonsoft.Json;
+using System.Net;
+using System.Text;
 
 namespace UsageDataProcessor
 {
