@@ -20,10 +20,7 @@ namespace UsageDataProcessor
             var myObj = new { spentYesterday = 1.234, avgLastMonth = 3.456 };
             var jsonToReturn = JsonConvert.SerializeObject(myObj);
 
-            return new HttpResponseMessage(HttpStatusCode.OK)
-            {
-                Content = new StringContent(jsonToReturn, Encoding.UTF8, "application/json")
-            };
+            return (ActionResult)new JsonResult(myObj);
         }
     }
 }
